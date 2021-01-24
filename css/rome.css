@@ -1,0 +1,91 @@
+@font-face {
+    font-family: tag; 
+    src: url("../font/tag.woff");
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    height: 7vh;
+    widows: 90;
+    display: flex;
+    margin: auto;
+    background-color:black;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.colorband {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 79px;
+    border-style: solid;
+    border-color: #4E0202;
+    background-color:#4E0202;
+    font-family: "tag";
+}
+
+h1 {
+    font-family:"tag";
+    font-size: 80px;
+    color:#868686;
+    stroke: white;
+    margin: auto;
+    margin-top: 0%;
+    margin-bottom: 10px; 
+    -webkit-text-stroke: 2px white;
+}
+
+main {
+    background: linear-gradient(black, rgba(255, 255, 255, 0.103));
+    padding: 2px;
+    height: 39cm;
+}
+
+.imgroup {
+    display: grid;
+    grid-gap: 5px;
+    margin : 5px;
+    justify-items: center;
+    margin-top: 80px;
+}
+
+.mrs1 {
+    border: 2px solid white;
+}
+
+.mrs2 {
+    border: 2px solid white;
+}
+
+.menu li {
+    margin-top:0mm;
+    align-items: center;
+    justify-content: center;
+    list-style:none;
+    font-family: "tag";
+    font-size: 50px;
+    color: white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.txt {
+    text-align: justify;
+    font-size: 50px;
+    font-family: "Miltonian Tattoo";
+}
+
+footer {
+    height: 6vh;
+    background-color: black;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
